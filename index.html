@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8"/> 
+      <title>DevPedroFurquim - Links</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+    window.addEventListener('DOMContentLoaded', () => {
+   VANTA.BIRDS({
+    el: "#vanta",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    color1: 0xff00b8,
+    color2: 0xc5ff,
+    birdSize: 2.00,
+    wingSpan: 20.00,
+    separation: 60.00,
+    alignment: 30.00,
+    cohesion: 76.00,
+    quantity: 2.00,
+    backgroundAlpha: 0.00   
+         
+    })
+    
+    setTimeout(() => {
+      const main = document.querySelector('main')
+      main.style.opacity = 1
+    })        
+  })
+
+</script>
+      <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div id="vanta"></div>
+  <main>
+    <header>
+      <img src="./images/me/pedro-on-nature.jpg"/>
+      <h1>@DevPedroFurquim</h1>
+    </header>
+    <ul>
+      <li>
+        <a href="https://devpedrofurquim.bss.design">
+          <img src="./images/Social-Media/website.svg" alt="Website" width="50" />
+        Official Website
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="./images/Social-Media/coffe-mug.svg" alt="BLog" width="50" />
+        Blog Post's
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/devpedrofurquim">
+          <img src="./images/Social-Media/twitter.svg" alt="Twitter" width="50" />
+        My Twitter
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/devpedrofurquim">
+          <img src="./images/Social-Media/github.svg" alt="GitHub" width="50" />
+        My GitHub
+        </a>
+      </li>
+      </ul> 
+  </main>
+  </body>
+</html>
