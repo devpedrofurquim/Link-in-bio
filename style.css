@@ -50,7 +50,7 @@ ul {
   box-sizing: border-box;
   list-style: none;
   margin: 0 auto;
-  padding: 2em;
+  padding: 5px;
   max-width: 480px;
 }
 
@@ -84,5 +84,15 @@ ul > li > a {
   top: 0;
   width: 100%;
   height: 100%;
+}
 
+footer {
+  text-align: center;
+  left: 10px;
+  bottom: 5px;
+  right: 5px;
+  width: 95%;
+  color: white;
+  padding: 0px 0px;
+  margin: 0px 10px;
 }
