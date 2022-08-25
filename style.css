@@ -72,6 +72,23 @@ ul > li > a {
   gap: 0.5em;
 }
 
+li:hover {
+  transform: scale(1.1);
+  transition: all ease 500ms;
+}
+
+a > img:hover {
+  transform: scale(1.1);
+  transition: all ease 500ms;
+}
+
+@keyframes a > img {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1);
+  100% { transform: scale(1); }
+  }
+}
+
  a {
   color: black;
   text-decoration: none;
