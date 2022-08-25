@@ -35,9 +35,9 @@ header > img {
 
 header > h1 {
   display: inline-block;
-  font-size: 0.8em;
-  font-weight: bold;
-  border-radius: 1em;
+  font-size: 1.0em;
+  font-weight: normal;
+  border-radius: 0.5em;
   background-color: #000a;
   color: #fff;
   padding: 0.3em 0.6em;
@@ -55,12 +55,12 @@ ul {
 }
 
 ul > li {
-  background-color: #fffa;
+  background-color: #f5f5dc;
   backdrop-filter: blur(10px) saturate(160%) contrast(180%); 
   -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%); 
-  border-radius: 10em;
-  padding: 1em;
-  margin: 1.4em 0;
+  border-radius: 5em;
+  padding: 0.5em;
+  margin: 1em 0;
   box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
 }
 
@@ -103,6 +103,10 @@ a > img:hover {
   height: 100%;
 }
 
+div {
+  text-align: center;
+}
+
 footer {
   text-align: center;
   left: 10px;
@@ -115,12 +119,12 @@ footer {
 }
 
 a:hover {
-  color: #145369;
+  font-weight: bold;
 }
 .tags {
   color: #fff;
 }
 
 .tags:hover {
-  color: #D8B084;
+  color: #f5f5dc;
 }
