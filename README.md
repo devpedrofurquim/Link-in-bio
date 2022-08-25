@@ -7,7 +7,7 @@ Javascript, HTML and CSS
 ## 
 
 The code's modified to my own tasting but the original idea came
-from Takuya Matsuyama video tutorial. Thank Takuya
+from Takuya Matsuyama video tutorial. Thanks Takuya 😃
 
 - [@craftzdog](https://www.youtube.com/watch?v=u71pHOyvBp0&list=UU7yZ6keOGsvERMp2HaEbbXQ&index=2)
 
