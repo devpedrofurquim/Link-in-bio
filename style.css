@@ -96,3 +96,14 @@ footer {
   padding: 0px 0px;
   margin: 0px 10px;
 }
+
+a:hover {
+  color: #145369;
+}
+.tags {
+  color: #fff;
+}
+
+.tags:hover {
+  color: #D8B084;
+}
