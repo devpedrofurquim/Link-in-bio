@@ -12,6 +12,6 @@ from Takuya Matsuyama video tutorial. Thanks Takuya 😃
 - [@craftzdog](https://www.youtube.com/watch?v=u71pHOyvBp0&list=UU7yZ6keOGsvERMp2HaEbbXQ&index=2)
 
 
-## Screenshots
+## Project Structure
 
 ![App Screenshot](https://i.ibb.co/bbhFWmZ/Screenshot-from-2022-08-25-03-34-12.png)
